@@ -20,7 +20,6 @@ export class Popover {
 
     btn.addEventListener("click", () => {
       popover.classList.toggle("unvisible")
-      console.log("235423534 2wergwer")
     })
   }
 
