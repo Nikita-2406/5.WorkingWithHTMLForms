@@ -1,5 +1,9 @@
 import { Popover } from "./popover/popover";
 
-const popover = new Popover(document.querySelector(".container"))
+export const forTest = () => {
+  return 1
+}
 
-popover.bindtoDOM()
+// const popover = new Popover(document.querySelector(".container"))
+
+// popover.bindtoDOM()

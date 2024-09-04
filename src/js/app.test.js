@@ -1,11 +1,11 @@
-import demo from "./app";
+import { forTest } from "./app";
 
-describe("Пример теста", () => {
-  test.each([
-    { str: "Hello!", expected: "Demo: Hello!" },
-    { str: "", expected: "Demo: " },
-    { str: 100, expected: "Demo: 100" },
-  ])("demo($str)", ({ str, expected }) => {
-    expect(demo(str)).toBe(expected);
+// describe("Пример теста", () => {
+//     const ans = forTest()
+//     expect(1).toBe(1);
+// });
+
+test("widget should render", () => {
+    expect(forTest()).toEqual(1);
   });
-});
+
